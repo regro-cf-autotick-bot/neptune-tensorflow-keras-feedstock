@@ -1,5 +1,5 @@
 {% set name = "neptune-tensorflow-keras" %}
-{% set version = "0.9.3" %}
+{% set version = "0.9.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: fc821443856b1638525a905082390a0b7c26f5de420f8e2d5c87eed4e2b1eb51
+  sha256: 48af088b8e14e7d9299336d801a444773c2960da936e15bee578fa4090fbe1b8
 
 build:
   noarch: python
