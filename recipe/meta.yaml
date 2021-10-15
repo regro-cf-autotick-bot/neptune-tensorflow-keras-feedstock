@@ -21,6 +21,7 @@ requirements:
   run:
     - neptune-client >=0.9
     - python >=3.6
+    - tensorflow >=2,<3
 
 test:
   imports:
