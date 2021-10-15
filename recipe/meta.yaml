@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . -vv '
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
   run:
     - neptune-client >=0.9
     - python >=3.6
-    - tensorflow >=2.0
+    - tensorflow >=2,<3
 
 test:
   imports:
@@ -42,6 +42,6 @@ extra:
     - aniezurawski
     - HubertJaworski
     - pitercl
-    - PiotrJander
+    - Raalsky
     - shnela
     - pkasprzyk

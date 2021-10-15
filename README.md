@@ -120,7 +120,7 @@ Feedstock Maintainers
 =====================
 
 * [@HubertJaworski](https://github.com/HubertJaworski/)
-* [@PiotrJander](https://github.com/PiotrJander/)
+* [@Raalsky](https://github.com/Raalsky/)
 * [@aniezurawski](https://github.com/aniezurawski/)
 * [@pitercl](https://github.com/pitercl/)
 * [@pkasprzyk](https://github.com/pkasprzyk/)
