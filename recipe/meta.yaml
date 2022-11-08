@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.6
     - poetry-core >=1.0.0
     - poetry-dynamic-versioning
   run:
     - neptune-client >=0.9
-    - python >=3.7
+    - python >=3.6
     - tensorflow >=2,<3
 
 test:
@@ -46,3 +46,6 @@ extra:
     - pitercl
     - Raalsky
     - shnela
+    - twolodzko
+    - AleksanderWWW
+    - PatrykGala
