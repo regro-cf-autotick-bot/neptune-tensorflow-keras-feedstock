@@ -18,6 +18,8 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - poetry-core >=1.0.0
+    - poetry-dynamic-versioning-plugin
   run:
     - neptune-client >=0.9
     - python >=3.6
