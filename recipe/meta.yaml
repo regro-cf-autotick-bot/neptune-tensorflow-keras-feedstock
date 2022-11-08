@@ -18,7 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.7
-    - poetry
+    - poetry-core >=1.0.0
     - poetry-dynamic-versioning
   run:
     - neptune-client >=0.9
@@ -46,4 +46,3 @@ extra:
     - pitercl
     - Raalsky
     - shnela
-    - pkasprzyk
