@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.7
     - poetry
-    - poetry-dynamic-versioning-plugin
+    - poetry-dynamic-versioning
   run:
     - neptune-client >=0.9
     - python >=3.7
