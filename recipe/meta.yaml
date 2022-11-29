@@ -30,6 +30,10 @@ test:
   imports:
     - neptune_tensorflow_keras
     - neptune_tensorflow_keras.impl
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://neptune.ai/
