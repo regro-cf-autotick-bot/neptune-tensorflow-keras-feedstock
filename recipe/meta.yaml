@@ -1,4 +1,5 @@
 {% set name = "neptune-tensorflow-keras" %}
+{% set package_name = "neptune_tensorflow_keras" %}
 {% set version = "1.2.0" %}
 
 package:
@@ -6,12 +7,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/neptune-ai/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 71cbdf43948d71e3ea9b32fcc38b88acbf18aa74f363941f26f504b05208a367
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ package_name }}-{{ version }}.tar.gz
+  sha256: afe5001bb34dc83b3ff8a4acb6213910e961b24536af2af8a61fb5085c6e0cb5
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . -vv '
 
 requirements:
@@ -29,6 +30,10 @@ test:
   imports:
     - neptune_tensorflow_keras
     - neptune_tensorflow_keras.impl
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://neptune.ai/
