@@ -1,6 +1,6 @@
 {% set name = "neptune-tensorflow-keras" %}
 {% set package_name = "neptune_tensorflow_keras" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ package_name }}-{{ version }}.tar.gz
-  sha256: 04e1ef5e6cb621f6d8a6b18b63760e4bf3f04b82d8d0f298f4e3834874da43ba
+  sha256: 80ffebcca61d5584f52b13b321a4d4735635f5a7e3ac5e79db3957bdc22b06b9
 
 build:
   noarch: python
