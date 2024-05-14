@@ -153,6 +153,4 @@ Feedstock Maintainers
 * [@Raalsky](https://github.com/Raalsky/)
 * [@aniezurawski](https://github.com/aniezurawski/)
 * [@pitercl](https://github.com/pitercl/)
-* [@shnela](https://github.com/shnela/)
-* [@twolodzko](https://github.com/twolodzko/)
 
