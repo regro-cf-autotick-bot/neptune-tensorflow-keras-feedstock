@@ -1,6 +1,6 @@
 {% set name = "neptune-tensorflow-keras" %}
 {% set package_name = "neptune_tensorflow_keras" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ package_name }}-{{ version }}.tar.gz
-  sha256: 679ecd66d2c89e86477a03e0451295c77598e92f4d8479b8313d642dfdb4ce3f
+  sha256: b1c22e277e363888b7bc2778d73a86af193fb22ea439178822c70785b629faa7
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - poetry-core >=1.0.0
     - poetry-dynamic-versioning
   run:
-    - neptune-client >=0.9
+    - neptune >=1.0.0
     - python >=3.6
     - tensorflow >=2,<3
 
@@ -50,7 +50,6 @@ extra:
     - HubertJaworski
     - pitercl
     - Raalsky
-    - shnela
-    - twolodzko
     - AleksanderWWW
     - PatrykGala
+    - szysad
